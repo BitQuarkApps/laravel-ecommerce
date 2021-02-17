@@ -28,8 +28,8 @@ class CreateProductTable extends Migration
             $table->double('price', 10, 2);
             $table->string('brand', 30)->nullable();
             $table->enum('condition', array_keys(trans('globals.product_conditions')));
-            $table->json('tags')->nullable();
-            $table->json('features');
+            $table->text('tags')->nullable();
+            $table->text('features');
             $table->double('rate_val', 10, 2)->nullable();
             $table->integer('rate_count')->nullable();
             $table->integer('sale_counts')->unsigned();

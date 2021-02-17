@@ -14,7 +14,8 @@
         "barryvdh/laravel-debugbar": "^3.1",
         "predis/predis": "^1.1",
         "davejamesmiller/laravel-breadcrumbs": "^4.2",
-        "milon/barcode": "^5.3"
+        "milon/barcode": "^5.3",
+        "ybr-nx/laravel-mariadb": "^1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.7",
